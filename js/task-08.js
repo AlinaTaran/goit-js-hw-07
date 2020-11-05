@@ -20,7 +20,7 @@ const createBoxes = (amount) => {
     size += i * 10;
     box.style.width = `${size}px`;
     box.style.height = `${size}px`;
-    box.style.backgroundColor = `rgba( ${random()} , ${random()} , ${random()}`;
+    box.style.backgroundColor = `rgba( ${random()} , ${random()} , ${random()})`;
     prevBox.appendChild(box);
   }
   ref.boxes.appendChild(prevBox);
